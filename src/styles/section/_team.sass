@@ -1,16 +1,18 @@
 .team
     display: grid
     grid-template-columns: repeat(3, 1fr)
+    align-items: center
     gap: 20px
-    max-height: 687px
+    min-height: 700px
+    padding: 20px 0
 
     &-member
         display: flex
         flex-direction: column
         align-items: center
         gap: 9px
-        max-height: 255px
-        max-width: 191px
+        height: 255px
+        width: 191px
         will-change: transform
         rotate: 5deg
         transition: transform 0.3s ease-in-out
@@ -19,11 +21,11 @@
 
         &:nth-child(2)
             position: relative
-            top: 20%
+            top: 15%
             
         &:nth-child(5)
             position: relative
-            top: 20%
+            top: 15%
 
         &:hover
             transform: scale(1.05)

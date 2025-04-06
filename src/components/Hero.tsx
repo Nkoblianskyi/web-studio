@@ -41,7 +41,9 @@ export const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <Team />
+                <div className='hero-team'>
+                    <Team />
+                </div>
             </div>
         </>
     );
