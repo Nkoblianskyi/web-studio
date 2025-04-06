@@ -1,11 +1,12 @@
-import { CardOffer } from "@/components/offer/CardOffer";
+import { CardOffer } from '@/components/offer/CardOffer';
+import React from 'react';
 
-export default function Service() {
-    
+
+export default function Offer () {
     return (
         <div className=''>
-                <h1>Service</h1>
-                <CardOffer/>
+            <h1>Offer</h1>
+            <CardOffer/>
         </div>
     );
-}
+};
