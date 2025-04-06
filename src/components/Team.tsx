@@ -15,7 +15,7 @@ export default function TeamGrid() {
         <div className='team'>
             {teamMembers.map((member, idx) => (
                 <div key={idx} className='team-member'>
-                    <Image className='team-member-img' src={member.img} alt={member.name} width={191} height={255} objectFit='cover' />
+                    <Image className='team-member-img' src={member.img} alt={member.name} width={191} height={255} style={{ objectFit: 'cover' }} />
                     <div className='team-member-info'>
                         <strong className='team-member-name'>{member.name}</strong>
                         <span className='team-member-span'>{member.title}</span>
