@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
   basePath: isProd ? '/web-studio' : '',
   assetPrefix: isProd ? '/web-studio/' : '',
   reactStrictMode: true,
-  swcMinify: true,
   images: {
     unoptimized: true,
   },
