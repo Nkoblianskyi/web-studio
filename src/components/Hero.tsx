@@ -2,6 +2,7 @@ import SEO from '@/lib/seo';
 import React from 'react';
 import Team from './Team';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const Hero = () => {
     return (
@@ -21,13 +22,26 @@ export const Hero = () => {
                             <button className='hero-content-button btn'>Contact Us</button>
                         </Link>
                     </div>
-                    <div>
-
+                    <div className='hero-content-testimonial'>
+                        <div className="stars">
+                            <span className="star filled">★</span>
+                            <span className="star filled">★</span>
+                            <span className="star filled">★</span>
+                            <span className="star filled">★</span>
+                            <span className="star filled">★</span>
+                        </div>
+                        <p className='hero-content-testimonial-text'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenimad minim veniam.
+                        </p>
+                        <div className='hero-content-testimonial-info'>
+                            <div className='hero-content-wrapper'>
+                                <Image className='hero-content-wrapper-img' src="/team/member-seo.jpg" alt="hero" layout='fill' objectFit='cover' />
+                            </div>
+                            <p className='hero-content-name'>Sulli Kiri<span className='hero-content-span'>CEO Dream Team</span></p>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <Team />
-                </div>
+                <Team />
             </section>
         </>
     );
