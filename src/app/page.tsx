@@ -3,6 +3,8 @@ import '../styles/index.scss';
 import { Offer } from '@/components/offer/Offer';
 import { OurWorks } from '@/components/OurWorks';
 import CreativeTeam from '@/components/CreativeTeam';
+import { Projects } from '@/components/portfolio/Projects';
+import { ContactForm } from '@/components/ContactForm';
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
         <Offer/>
         <OurWorks/>
         <CreativeTeam/>
+        <Projects/>
+        <ContactForm/>
     </div>
   );
 }

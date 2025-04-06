@@ -1,0 +1,146 @@
+.footer
+    display: flex
+    flex-direction: row
+    padding: 0 120px
+    gap: 70px
+    max-width: 1200px
+    max-height: auto
+
+    &-logo
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        text-align: left
+        max-width: 338px
+
+        &-link
+            margin-bottom: 34px
+
+        &-text
+            text-align: left
+            font-weight: 400
+            font-size: 14px
+            color: rgba(101, 119, 144, 1)
+            margin-bottom: 51px
+
+        &-copyright
+            font-weight: 400
+            font-size: 14px
+            color: rgba(101, 119, 144, 1)
+
+    &-navigation
+        display: flex
+        flex-direction: column
+        gap: 24px
+        padding: 20px 0
+        max-height: auto
+
+        &-title
+            font-weight: 600
+            font-size: 16px
+            color: rgba(15, 23, 42, 1)
+
+        &-list
+            display: flex
+            flex-direction: column
+            gap: 10px
+
+            &-item
+                font-weight: 400
+                font-size: 14px
+                color: rgba(101, 119, 144, 1)
+
+    &-help
+        display: flex
+        flex-direction: column
+        gap: 24px
+        padding: 20px 0
+
+        &-title
+            font-weight: 600
+            font-size: 16px
+            color: rgba(15, 23, 42, 1)
+
+        &-link
+            font-weight: 400
+            font-size: 14px
+            color: rgba(101, 119, 144, 1)
+
+    &-subscribe
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        gap: 12px
+        padding: 20px 0
+
+        &-title
+            font-weight: 600
+            font-size: 16px
+            color: rgba(15, 23, 42, 1)
+
+        &-text
+            font-weight: 400
+            font-size: 14px
+            color: rgba(101, 119, 144, 1)
+
+        &-wrapp
+            display: flex
+            flex-direction: row
+            color: rgba(101, 119, 144, 1)
+
+        &-input
+            color: rgba(15, 23, 42, 1)
+            padding: 13px 20px
+            background: rgba(255, 255, 255, 1)
+            border: 1px solid rgba(228, 228, 231, 1)
+            border-radius: 3px 0px 0px 3px
+            font-size: 14px
+            transition: all 0.3s ease-in-out
+
+            &:focus
+                border-color: rgba(0, 181, 226, 1)
+                outline: none
+
+        &-button
+            border-radius: 0px 3px 3px 0px
+            padding: 12px 18px
+            border: 1px solid transparent
+            cursor: pointer
+            display: flex
+            align-items: center
+            justify-content: center
+            font-size: 14px
+            font-weight: 600
+            color: rgba(248, 250, 252, 1)
+            background-color: rgba(240, 137, 156, 1)
+            transition: all 0.3s ease-in-out
+
+            &:hover
+                background-color: rgba(0, 181, 226, 1)
+                color: rgba(15, 23, 42, 1)
+
+            &:active
+                background-color: rgba(0, 181, 226, 1)
+                color: rgba(15, 23, 42, 1)
+
+        &-icons
+            display: flex
+            flex-direction: row
+            align-items: center
+            gap: 15px
+            margin-top: 30px
+
+            &-title
+                font-weight: 400
+                font-size: 14px
+                color: rgba(15, 23, 42, 1)
+
+            &-link-icon
+                color: rgba(101, 119, 144, 1)
+                width: 28px
+                height: 28px
+                transition: all 0.3s ease-in-out
+
+                &:hover
+                    transform: scale(1.05)
+                    color: rgba(240, 137, 156, 1)

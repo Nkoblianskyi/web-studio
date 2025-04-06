@@ -1,6 +1,8 @@
 import React from 'react';
 import { CardOffer } from './CardOffer';
 
+
+
 export const Offer = () => {
     return (
         <section className="offer container">

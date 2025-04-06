@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import '../styles/index.scss';
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 const interSans = Inter({
   variable: "--font-inter-sans",
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={`${interSans.variable}`}>
         <Header/>
           {children}
+        <Footer/>
       </body>
     </html>
   );
