@@ -7,7 +7,6 @@ import { RiTelegramLine } from 'react-icons/ri';
 
 export const Footer = () => {
     const navigationLinks = [
-        { href: '/', text: 'Home' },
         { href: '/about', text: 'About' },
         { href: '/offer', text: 'Service' },
         { href: '/portfolio', text: 'Portfolio' },
