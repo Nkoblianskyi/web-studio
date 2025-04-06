@@ -3,6 +3,7 @@ import React from 'react';
 
 export const Navigation = () => {
     const navigationLinks = [
+        { href: '/', text: 'Home' },
         { href: '/about', text: 'About' },
         { href: '/offer', text: 'Service' },
         { href: '/portfolio', text: 'Portfolio' },

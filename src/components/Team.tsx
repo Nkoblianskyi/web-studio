@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 
 const teamMembers = [
-    { name: 'Albert William', title: 'Project Manager', img: '/web-studio/team/member1.jpg'},
-    { name: 'Sarah Khan', title: 'Designer', img: '/web-studio/team/member2.jpg'},
-    { name: 'John Smith', title: 'Developer', img: '/web-studio/team/member3.jpg'},
-    { name: 'Lina Lee', title: 'Marketing', img: '/web-studio/team/member4.jpg'},
-    { name: 'Mike Brown', title: 'Sales', img: '/web-studio/team/member5.jpg'},
-    { name: 'Anna White', title: 'HR Manager', img: '/web-studio/team/member6.jpg',},
+    { name: 'Albert William', title: 'Project Manager', img: '/team/member1.jpg'},
+    { name: 'Sarah Khan', title: 'Designer', img: '/team/member2.jpg'},
+    { name: 'John Smith', title: 'Developer', img: '/team/member3.jpg'},
+    { name: 'Lina Lee', title: 'Marketing', img: '/team/member4.jpg'},
+    { name: 'Mike Brown', title: 'Sales', img: '/team/member5.jpg'},
+    { name: 'Anna White', title: 'HR Manager', img: '/team/member6.jpg',},
 ];
 
 export default function TeamGrid() {

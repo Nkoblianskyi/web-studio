@@ -14,7 +14,7 @@ export const Header = () => {
             <header className="header">
                 <div className="header-logo">
                     <Link href="/" className='header-logo-link link'>
-                        <Image src="/web-studio/Logo.svg" className='header-logo-link-img' alt="logo" aria-label='logo' width={37} height={31} />
+                        <Image src="/Logo.svg" className='header-logo-link-img' alt="logo" aria-label='logo' width={37} height={31} />
                     </Link>
                 </div>
                 <div className="header-navigation">

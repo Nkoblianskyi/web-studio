@@ -35,7 +35,7 @@ export const Hero = () => {
                         </p>
                         <div className='hero-content-testimonial-info'>
                             <div className='hero-content-wrapper'>
-                                <Image className='hero-content-wrapper-img' src="/web-studio/team/member-seo.jpg" alt="hero" layout='fill' objectFit='cover' />
+                                <Image className='hero-content-wrapper-img' src="/team/member-seo.jpg" alt="hero" layout='fill' objectFit='cover' />
                             </div>
                             <p className='hero-content-name'>Sulli Kiri<span className='hero-content-span'>CEO Dream Team</span></p>
                         </div>
