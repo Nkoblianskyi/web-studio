@@ -13,7 +13,7 @@ export const Hero = () => {
                 url={undefined}
                 image={undefined}
             />
-            <section className="hero container">
+            <div className="hero container">
                 <div className='hero-content'>
                     <div className='hero-content-info'>
                         <h1 className='hero-content-title'>Creative Digital Agency That Help You Go Ahead</h1>
@@ -42,7 +42,7 @@ export const Hero = () => {
                     </div>
                 </div>
                 <Team />
-            </section>
+            </div>
         </>
     );
 };

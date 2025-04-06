@@ -11,7 +11,7 @@ const teamMembers = [
 
 export default function CreativeTeam() {
     return (
-        <section className='creative-team-section'>
+        <section className='creative-team-section container'>
             <header className='creative-team-header'>
                 <h2 className='creative-team-header-title'>Meet the team</h2>
                 <p className='creative-team-header-text'>Professional Creative Team</p>

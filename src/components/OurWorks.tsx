@@ -3,7 +3,7 @@ import React from 'react';
 export const OurWorks = () => {
     return (
         <>
-            <section className="works">
+            <section className="works container">
                 <header className="works-header">
                     <h2 className="works-header-title">Our Works</h2>
                     <p className="works-header-text">This is How We Works</p>

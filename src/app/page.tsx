@@ -6,7 +6,7 @@ import CreativeTeam from '@/components/CreativeTeam';
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='home'>
         <Hero/>
         <Offer/>
         <OurWorks/>
