@@ -1,0 +1,94 @@
+.creative-team-section
+    display: flex
+    flex-direction: column
+    padding: 0 120px
+    gap: 48px
+
+.creative-team-header
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    gap: 16px
+
+    &-title
+        font-weight: 500
+        font-size: 18px
+        color: rgba(240, 137, 156, 1)
+
+    &-text
+        font-weight: 600
+        font-size: 48px
+        color: rgba(15, 23, 42, 1)
+
+.creative-team
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: 25px
+    margin-bottom: 75px
+
+    &-member
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 191px
+        height: 255px
+        gap: 9px
+        position: relative
+        cursor: pointer
+        transition: transform 0.3s ease-in-out
+        will-change: transform
+
+        &:hover
+            transform: scale(1.1)
+
+        &:hover .creative-team-member-info
+            opacity: 1
+            transform: translateY(0)
+
+        &-wrapper
+            position: relative
+            width: 100%
+            height: 100%
+            border-radius: 12px
+            overflow: hidden
+            animation: sway 3s ease-in-out infinite
+            will-change: transform
+
+        &-img
+            object-fit: cover
+            transition: all 0.3s ease-in-out
+
+        &-info
+            position: absolute
+            bottom: 10px
+            transform: translateX(-50%) translateY(100%)
+            display: flex
+            flex-direction: column
+            align-items: center
+            gap: 8px
+            padding: 8px 12px
+            border-radius: 8px
+            max-width: 90%
+            background: rgba(255, 255, 255, 1)
+            opacity: 0
+            transition: all 0.3s ease-in-out
+            text-align: center
+
+        &-name
+            color: rgba(15, 23, 42, 1)
+            font-weight: 600
+            font-size: 14px
+
+        &-span
+            font-weight: 600
+            font-size: 14px
+            color: rgba(101, 119, 144, 1)
+
+@keyframes sway
+    0%
+        transform: rotate(-1deg)
+    50%
+        transform: rotate(1deg)
+    100%
+        transform: rotate(-1deg)
